@@ -140,7 +140,7 @@ jobs:
           images: |
             ghcr.io/${{ github.repository_owner }}/k3s
             docker.io/${{ env.DOCKERHUB_ORG }}/k3s
-            ${{ env.REGISTRY }}/rancher/k3s
+            ${{ env.REGISTRY }}/themooer1/k3s
           flavor: latest=false
           tags: ${{ steps.tag_config.outputs.tag_spec }}
       

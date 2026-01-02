@@ -60,7 +60,7 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@0.33.1
         with:
-          image-ref: 'rancher/k3s:latest'
+          image-ref: 'themooer1/k3s:latest'
           format: 'table'
           severity: "HIGH,CRITICAL"
           output: "trivy-report.txt"

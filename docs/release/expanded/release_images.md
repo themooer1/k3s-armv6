@@ -27,8 +27,8 @@ These images depend on the release artifact and can not be generated until after
 
 This process will take some time but upon completion, the images will be listed here.
 
-The k3s images will be published [here](https://hub.docker.com/r/rancher/k3s).
-The upgrade images will be published [here](https://hub.docker.com/r/rancher/k3s-upgrade).
+The k3s images will be published [here](https://hub.docker.com/r/themooer1/k3s).
+The upgrade images will be published [here](https://hub.docker.com/r/themooer1/k3s-upgrade).
 
 This sometimes fails! Check the CI and if it was not triggered do the following:
 1. Create a release in the system-agent-installer-k3s repo

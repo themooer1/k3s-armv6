@@ -4,7 +4,7 @@
 services:
 
   server:
-    image: "rancher/k3s:${K3S_VERSION:-latest}"
+    image: "themooer1/k3s:${K3S_VERSION:-latest}"
     command: server
     tmpfs:
     - /run
@@ -30,7 +30,7 @@ services:
     - 443:443    # Ingress controller port 443
 
   agent:
-    image: "rancher/k3s:${K3S_VERSION:-latest}"
+    image: "themooer1/k3s:${K3S_VERSION:-latest}"
     tmpfs:
     - /run
     - /var/run

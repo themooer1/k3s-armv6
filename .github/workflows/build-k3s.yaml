@@ -120,7 +120,7 @@ jobs:
       
     - name: "Save K3s image"
       if: inputs.upload-image == true && inputs.os == 'linux'
-      run: docker image save rancher/k3s -o ./dist/artifacts/k3s-image.tar
+      run: docker image save themooer1/k3s -o ./dist/artifacts/k3s-image.tar
 
     - name: "Save K3s build"
       if: inputs.upload-build == true  && inputs.os == 'linux'

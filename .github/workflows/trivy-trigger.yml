@@ -52,7 +52,7 @@ jobs:
         run: |
           make local-image
           make tag-image-latest
-          docker save -o k3s.tar rancher/k3s:latest
+          docker save -o k3s.tar themooer1/k3s:latest
 
       - name: Create PR context artifact
         run: |
