@@ -109,7 +109,7 @@ mkdir -p bin
 
 if [ ${ARCH} = armv7l ] || [ ${ARCH} = arm ]; then
     export GOARCH="arm"
-    export GOARM="7"
+    export GOARM="6"
 fi
 
 if [ ${ARCH} = s390x ]; then
